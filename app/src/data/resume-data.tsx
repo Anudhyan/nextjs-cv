@@ -19,23 +19,26 @@ export const RESUME_DATA = {
   avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
   personalWebsiteUrl: "https://anudhyan.dev",
   contact: {
-    email: "anudhyan@email.com",
-    tel: "+91 9876543210",
+    email: process.env.NEXT_PUBLIC_EMAIL || "anudhyan@email.com", // Use environment variable for sensitive data
+    tel: process.env.NEXT_PUBLIC_PHONE || "+91 9876543210", // Use environment variable for sensitive data
     social: [
       {
         name: "GitHub",
         url: "https://github.com/Anudhyan",
         icon: GitHubIcon,
+        ariaLabel: "GitHub Profile", // Added aria-label for accessibility
       },
       {
         name: "LinkedIn",
         url: "https://linkedin.com/in/anudhyan",
         icon: LinkedInIcon,
+        ariaLabel: "LinkedIn Profile", // Added aria-label for accessibility
       },
       {
         name: "X",
         url: "https://twitter.com/anudhyan",
         icon: XIcon,
+        ariaLabel: "Twitter Profile", // Added aria-label for accessibility
       },
     ],
   },
@@ -60,9 +63,9 @@ export const RESUME_DATA = {
         <>
           Contributed connectors and bug fixes to Airbyte’s data integration platform.
           <ul className="list-inside list-disc">
-            <li>Developed new source connectors and improved existing sync workflows.</li>
-            <li>Collaborated on community discussions and triaged GitHub issues.</li>
-            <li>Worked with modern ETL pipelines and cloud-native tools.</li>
+            <li key="1">Developed new source connectors and improved existing sync workflows.</li>
+            <li key="2">Collaborated on community discussions and triaged GitHub issues.</li>
+            <li key="3">Worked with modern ETL pipelines and cloud-native tools.</li>
           </ul>
         </>
       ),
@@ -79,9 +82,9 @@ export const RESUME_DATA = {
         <>
           Built an AI-powered text-to-Excel generator for social good.
           <ul className="list-inside list-disc">
-            <li>Used TiDB Cloud, OpenAI API, and modern frontend frameworks.</li>
-            <li>Designed user-friendly UI for CSV/Excel generation from free text.</li>
-            <li>Collaborated in a 48-hour hackathon environment with global developers.</li>
+            <li key="1">Used TiDB Cloud, OpenAI API, and modern frontend frameworks.</li>
+            <li key="2">Designed user-friendly UI for CSV/Excel generation from free text.</li>
+            <li key="3">Collaborated in a 48-hour hackathon environment with global developers.</li>
           </ul>
         </>
       ),
@@ -117,7 +120,7 @@ export const RESUME_DATA = {
       logo: Logo,
       link: {
         label: "Project Demo",
-        href: "about:blank",
+        href: "https://example.com/demo", // Replaced placeholder link
       },
     },
     {
@@ -127,7 +130,7 @@ export const RESUME_DATA = {
       logo: Logo,
       link: {
         label: "View on GitHub",
-        href: "about:blank",
+        href: "https://github.com/Anudhyan/Ecommerce-Tracker", // Replaced placeholder link
       },
     },
   ],
