@@ -3,6 +3,7 @@ import {
 } from "../images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "../components/icons";
 
+
 export const RESUME_DATA = {
   name: "Your Name",
   initials: "YN",
