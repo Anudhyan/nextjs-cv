@@ -17,7 +17,7 @@ export const RESUME_DATA = {
       Interdum et malesuada fames ac ante ipsum primis.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
+  avatarUrl: "https://media.discordapp.net/attachments/1202265023767126027/1356891202804514817/img_v3_02kv_dd6a9491-c376-4c7f-995b-cbde6170c8dg.png?ex=681866e8&is=68171568&hm=bb10a10fa0eb6dd8cdd422381816335d7bfcf1e75703ba8a594046d0095c67dd&=&format=webp&quality=lossless&width=325&height=533",
   personalWebsiteUrl: "https://defang.io/",
   contact: {
     email: "lorem.ipsum@example.com",
