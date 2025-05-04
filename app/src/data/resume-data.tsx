@@ -1,184 +1,132 @@
 import {
- Logo
+  Logo
 } from "../images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "../components/icons";
 
 export const RESUME_DATA = {
   name: "Anudhyan Datta",
-  initials: "YN",
-  location: " India",
-  locationLink: "https://www.google.com/maps/",
-  about:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  initials: "AD",
+  location: "Kolkata, India",
+  locationLink: "https://maps.google.com/?q=Kolkata",
+  about: "Aspiring Software Engineer | Open Source Enthusiast",
   summary: (
     <>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae fringilla nulla, 
-      in vehicula ligula. Morbi dignissim tempor justo, sit amet dictum purus feugiat in. 
-      Interdum et malesuada fames ac ante ipsum primis.
+      Passionate about building scalable applications, contributing to open-source projects, 
+      and exploring cloud-native technologies. Skilled in full-stack development, blockchain, 
+      and cross-chain integrations.
     </>
   ),
-  avatarUrl: "https://media.discordapp.net/attachments/1202265023767126027/1356891202804514817/img_v3_02kv_dd6a9491-c376-4c7f-995b-cbde6170c8dg.png?ex=681866e8&is=68171568&hm=bb10a10fa0eb6dd8cdd422381816335d7bfcf1e75703ba8a594046d0095c67dd&=&format=webp&quality=lossless&width=325&height=533",
-  personalWebsiteUrl: "https://defang.io/",
+  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
+  personalWebsiteUrl: "https://anudhyan.dev",
   contact: {
-    email: "lorem.ipsum@example.com",
-    tel: "+1234567890",
+    email: "anudhyan@email.com",
+    tel: "+91 9876543210",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/DefangLabs",
+        url: "https://github.com/Anudhyan",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/company/defanglabs/",
+        url: "https://linkedin.com/in/anudhyan",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://twitter.com/DefangLabs",
+        url: "https://twitter.com/anudhyan",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Faucibus Orci Luctus",
-      degree: "Bachelor's Degree in Vestibulum Ante",
-      start: "2007",
-      end: "2010",
+      school: "Government College of Engineering and Leather Technology",
+      degree: "B.Tech in Computer Science",
+      start: "2021",
+      end: "2025",
     },
   ],
   work: [
     {
-      company: "Company",
-      link: "about:blank",
-      badges: ["Remote", "React", "TypeScript", "Node.js"],
-      title: "Job Position",
+      company: "Airbyte",
+      link: "https://airbyte.com",
+      badges: ["Remote", "Open Source", "Data Integration"],
+      title: "Open Source Contributor",
       logo: Logo,
       start: "2024",
       end: null,
       description: (
         <>
-          Sed eget felis lacus. Maecenas placerat diam a tincidunt viverra. 
+          Contributed connectors and bug fixes to Airbyte’s data integration platform.
           <ul className="list-inside list-disc">
-            <li>
-              Praesent hendrerit justo et nisl dapibus, porttitor placerat nisi efficitur.
-            </li>
-            <li>
-              Donec viverra urna in porta dignissim, nunc suscipit aliquet elementum, 
-              etiam vestibulum. 
-            </li>
-            <li>
-              Curabitur venenatis magna lacinia, vulputate nisl ac, fermentum turpis. 
-            </li>
+            <li>Developed new source connectors and improved existing sync workflows.</li>
+            <li>Collaborated on community discussions and triaged GitHub issues.</li>
+            <li>Worked with modern ETL pipelines and cloud-native tools.</li>
           </ul>
         </>
       ),
     },
     {
-      company: "Company",
-      link: "about:blank",
-      badges: [
-        "Remote",
-        "React",
-        "TypeScript",
-        "Node.js",
-      ],
-      title: "Job Position",
+      company: "TiDB Future App Hackathon",
+      link: "https://pingcap.com",
+      badges: ["Hackathon", "AI", "Open Source"],
+      title: "Hackathon Participant",
       logo: Logo,
-      start: "2021",
+      start: "2024",
       end: "2024",
       description: (
         <>
-          Quisque vitae elementum orci. In hac habitasse platea dictumst.
+          Built an AI-powered text-to-Excel generator for social good.
           <ul className="list-inside list-disc">
-            <li>
-            Duis ornare ligula nec tincidunt mattis, crabitur lectus neque.
-            </li>
-            <li>
-            Donec porttitor nec magna quis facilisis mauris, rutrum a diam vitae rhoncus 
-            donec luctus.
-            </li>
-            <li>
-            Phasellus nibh felis, scelerisque aliquet cursus a, blandit id sem, 
-            nam aliquet dolor.
-            </li>
+            <li>Used TiDB Cloud, OpenAI API, and modern frontend frameworks.</li>
+            <li>Designed user-friendly UI for CSV/Excel generation from free text.</li>
+            <li>Collaborated in a 48-hour hackathon environment with global developers.</li>
           </ul>
         </>
       ),
     },
-    {
-      company: "Company",
-      link: "about:blank",
-      badges: ["Remote", "React", "TypeScript", "Node.js"],
-      title: "Job Position",
-      logo: Logo,
-      start: "2015",
-      end: "2021",
-      description: (
-        <>
-          Sed aliquet hendrerit odio, in elementum ante convallis quis.
-          <ul className="list-inside list-disc">
-            <li>
-            Donec blandit nibh at felis vehicula vehicula, nunc semper porttitor malesuada.
-            </li>
-            <li>
-            Etiam rutrum dolor vel elit cursus elementum. 
-            </li>
-            <li>
-            Curabitur urna sem, faucibus auctor dignissim a, eleifend at mauris.
-            </li>
-          </ul>
-        </>
-      ),
-    }
   ],
   skills: [
-    "React",
+    "C",
+    "Java",
     "TypeScript",
+    "Next.js",
     "Tailwind CSS",
+    "Google Cloud",
+    "Docker",
+    "Git",
     "Node.js",
-    "GraphQL",
-    "Relay",
-    "System Architecture",
-    "Remote Team Leadership",
+    "Wormhole (Cross-chain)",
   ],
   projects: [
     {
-      title: "Project 1",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
-      description:
-        "Nam aliquet dolor a risus pharetra placerat, praesent congue nulla dolor.",
+      title: "Cross-Chain Token Transfer",
+      techStack: ["TypeScript", "Hardhat", "Polygon", "Wormhole"],
+      description: "A project for cross-chain token swaps using Wormhole and Polygon.",
       logo: Logo,
       link: {
-        label: "blank",
+        label: "View on GitHub",
+        href: "https://github.com/Anudhyan/Cross-Chain-Token-Transfer",
+      },
+    },
+    {
+      title: "AI Excel Generator",
+      techStack: ["Next.js", "OpenAI API", "TiDB Cloud"],
+      description: "Converts text into structured Excel sheets for NGOs and social causes.",
+      logo: Logo,
+      link: {
+        label: "Project Demo",
         href: "about:blank",
       },
     },
     {
-      title: "Project 2",
-      techStack: [
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-      ],
-      description:
-        "Pellentesque habitant morbi tristique senectus.",
+      title: "E-commerce Tracker with Vonage SMS",
+      techStack: ["Node.js", "Vonage API", "MongoDB"],
+      description: "Tracks e-commerce orders and sends SMS updates to users using Vonage.",
       logo: Logo,
       link: {
-        label: "blank",
-        href: "about:blank",
-      },
-    },
-    {
-      title: "Project 3",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
-      description:
-        "Curabitur lectus neque, tempor at tortor non, viverra tempor tellus.",
-      logo: Logo,
-      link: {
-        label: "blank",
+        label: "View on GitHub",
         href: "about:blank",
       },
     },
